@@ -1,6 +1,7 @@
 import Features from "./Section/Features";
 import Header from "./Section/Header";
 import Hero from "./Section/Hero";
+import Pricing from "./Section/Pricing";
 function App() {
   return (
     <>
@@ -8,6 +9,7 @@ function App() {
         <Header />
         <Hero />
         <Features />
+        <Pricing />
       </main>
     </>
   );
